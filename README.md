@@ -33,7 +33,7 @@ Recommends music based on facial expressions and emotions using machine learning
 ---
 
 ## 🌐 Portfolio
-🔗 [View My Portfolio Website](https://Mithunreddy.github.io/mithun-reddy-portfolio/)
+🔗 [View My Portfolio Website](https://mithunreddy-bot.github.io/mithun-reddy-portfolio/)
 
 ---
 
