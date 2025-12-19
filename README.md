@@ -38,7 +38,7 @@ Recommends music based on facial expressions and emotions using machine learning
 ---
 
 ## 📫 Contact
-- GitHub: https://github.com/Mithun Reddy  
+- GitHub: https://github.com/Mithunreddy-bot  
 - LinkedIn: www.linkedin.com/in/mithun-reddy-444493316
 - Email: alumelumithun@gmail.com 
 
