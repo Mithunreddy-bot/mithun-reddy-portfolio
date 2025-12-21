@@ -1,88 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mithun Reddy | Portfolio</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mithun Reddy | Portfolio</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, Helvetica, sans-serif;
-            background: linear-gradient(135deg, #1f2933, #111827);
-            color: #ffffff;
-        }
+<style>
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #ffffff;
+}
 
-        .container {
-            max-width: 800px;
-            margin: 80px auto;
-            padding: 40px;
-            background: #1f2933;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
-            text-align: center;
-        }
+.container {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 40px;
+}
 
-        h1 {
-            font-size: 42px;
-            margin-bottom: 10px;
-        }
+.card {
+    background: #020617;
+    border-radius: 14px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
 
-        h2 {
-            font-size: 22px;
-            font-weight: normal;
-            color: #9ca3af;
-            margin-bottom: 30px;
-        }
+h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+    text-align: center;
+}
 
-        p {
-            font-size: 18px;
-            line-height: 1.6;
-            margin-bottom: 30px;
-        }
+h2 {
+    text-align: center;
+    color: #9ca3af;
+    margin-bottom: 30px;
+}
 
-        .btn {
-            display: inline-block;
-            padding: 12px 24px;
-            background: #2563eb;
-            color: white;
-            text-decoration: none;
-            border-radius: 8px;
-            font-size: 16px;
-            transition: background 0.3s ease;
-        }
+h3 {
+    border-bottom: 2px solid #2563eb;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
 
-        .btn:hover {
-            background: #1d4ed8;
-        }
+p, li {
+    font-size: 17px;
+    line-height: 1.6;
+}
 
-        footer {
-            margin-top: 40px;
-            font-size: 14px;
-            color: #9ca3af;
-        }
-    </style>
+.skills, .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.skill, .project {
+    background: #020617;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.skill span {
+    font-size: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 10px 10px 0 0;
+}
+
+.btn:hover {
+    background: #1d4ed8;
+}
+
+.center {
+    text-align: center;
+}
+</style>
 </head>
+
 <body>
+<div class="container">
 
-    <div class="container">
-        <h1>Mithun Reddy</h1>
-        <h2>Aspiring Software Engineer</h2>
+<!-- HERO -->
+<div class="card center">
+    <h1>Mithun Reddy</h1>
+    <h2>Aspiring Software Engineer</h2>
+    <a class="btn" href="resume.pdf" download>Download Resume</a>
+    <a class="btn" href="https://github.com/Mithunreddy-bot" target="_blank">GitHub</a>
+    <a class="btn" href="https://www.linkedin.com/in/mithun-reddy/" target="_blank">LinkedIn</a>
+</div>
 
-        <p>
-            Welcome to my portfolio website.  
-            I am passionate about software development, problem-solving, and building efficient web applications.
-        </p>
+<!-- EDUCATION -->
+<div class="card">
+    <h3>🎓 Education</h3>
+    <ul>
+        <li><strong>Bachelor of Computer Applications (BCA)</strong> – 3rd Year</li>
+        <li>Focused on Software Development, Data Structures, and AI</li>
+    </ul>
+</div>
 
-        <a class="btn" href="https://github.com/Mithunreddy-bot" target="_blank">
-            Visit My GitHub
-        </a>
-
-        <footer>
-            © 2025 Mithun Reddy
-        </footer>
+<!-- SKILLS -->
+<div class="card">
+    <h3>🛠 Skills</h3>
+    <div class="skills">
+        <div class="skill"><span>💻</span><p>HTML & CSS</p></div>
+        <div class="skill"><span>⚙️</span><p>JavaScript</p></div>
+        <div class="skill"><span>🐍</span><p>Python</p></div>
+        <div class="skill"><span>🗄️</span><p>MySQL</p></div>
+        <div class="skill"><span>🤖</span><p>AI & ML Basics</p></div>
     </div>
+</div>
 
+<!-- PROJECTS -->
+<div class="card">
+    <h3>📂 Projects</h3>
+    <div class="projects">
+
+        <div class="project">
+            <h4>Solar tracking system using iot</h4>
+            <p>the Solar tracking system asorbs the light or sunlight upt to degree for more efficiency of solar energy.</p>
+        </div>
+
+        <div class="project">
+            <h4>AI Study Partner</h4>
+            <p>Smart learning assistant that helps students with personalized study plans.</p>
+        </div>
+
+        <div class="project">
+            <h4>Music recommendation system y facial expression</h4>
+            <p>using human facial expression recomending a song using spotify api.</p>
+        </div>
+
+    </div>
+</div>
+
+<!-- CONTACT -->
+<div class="card center">
+    <h3>📞 Contact Me</h3>
+    <p>Email: <strong>alumelumithun@gmail.com</strong></p>
+    <p>LinkedIn: <a href="www.linkedin.com/in/mithun-reddy-444493316" target="_blank" style="color:#60a5fa;">View Profile</a></p>
+</div>
+
+</div>
 </body>
 </html>
-
